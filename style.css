@@ -1,0 +1,182 @@
+html , body {
+    font-family: "Montserrat Alternates" , sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #0f141e;
+    background-color: #f1f1f1;
+
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.img__header{
+    border-radius: 30px;
+    height: 300px;
+    width: auto;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.ul-container {
+    margin-bottom: 20px;
+}
+
+.ul-container li {
+    margin-left: 20px;
+}
+
+.table {
+    margin: 15px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+}
+
+.form {
+    margin-bottom: 50px;
+    /* background: aqua; */
+}
+
+.form__item {
+    margin-bottom: 3px;
+}
+
+.btn {
+    box-sizing: border-box;
+    height: 60px;
+    width: 125px;
+    margin: 15px;
+    background-color: black;
+    color: #fff;
+    border: 4px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px auto;
+    font-weight: bold;
+    font-family: inherit;
+    transition: all 0.6s;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: lightpink;
+    cursor: pointer;
+} 
+
+.egg{
+    margin-left: 30px;
+}
+
+.egga {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+    padding-right: 5px;    
+}
+
+.egga:hover {
+    text-decoration: underline;
+}
+
+.egga:active{
+    color:blue;
+}
+.info-text{
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.th-style{
+    border: 1px solid gray ;
+}
+
+.td-style{
+    border: 1px solid gray ;
+}
+
+.p-gray {
+    color: gray;
+}
+
+.info {
+    padding: 10px;
+    display: flex;
+}
+
+.ul-container {
+    background-color: lightcyan;
+    padding: 5px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.ul-container h2 {
+    margin: 10px ;
+}
+.ul-container ul {
+    list-style: none;
+}
+
+.table__div {
+    background-color: lightgreen;
+    padding: 15px 10px;
+}
+
+.form h2 {
+    text-align: center;
+
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row,.form__item {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form__item :last-child{
+    margin-right: 0;
+}
+
+.form__item label {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
+.form__item input,
+.form__item textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family: inherit;
+    color: #000;
+    border-bottom:1px solid #ccc ;
+    padding: 15px 0 10px ;
+}
+
+@media (max-width:650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px){
+    .form-row {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
